@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   
    return (
-    <div className="  bg-gray-50 font-sans text-gray-800">
+    <div className="  bg-gray-50 font-sans text-gray-800 container mx-auto px-4 sm:px-6 lg:px-8">
       <header className="shadow-sm">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-5">
           
@@ -29,9 +29,10 @@ function App() {
 style={{ backgroundImage: "url('/images/hiking.jpg')" }}
 >
   <div className="absolute inset-0 "></div>
-  <div className="relative z-10 flex items-center justify-center h-full">
-    <h2 className="text-5xl md:text-6xl text-white font-light"> Hello World,Welcome to my blogs!</h2><br></br><br></br>
-    <p>We will dive in about<ul>
+  <div className="relative z-10 flex flex-col items-center justify-center h-full">
+    <h2 className="text-5xl md:text-6xl text-white font-light"> Hello World,Welcome to my blogs!</h2>
+   
+ <p className="text-gray-400">We will dive in about<ul>
       <li>Tech</li>
             <li>Conspiracy Theories</li>
       <li>Movie and Book Recs</li>
@@ -40,7 +41,7 @@ style={{ backgroundImage: "url('/images/hiking.jpg')" }}
 
     </ul>
     </p>
-  </div>
+    </div>
 </section>
 
 
