@@ -1,12 +1,38 @@
-# React + Vite
+# Blog Landing UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive blog landing page built with **React** and **Tailwind CSS**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
 
-## Expanding the ESLint configuration
+https://blog-landing-ui-2.vercel.app/
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+- Responsive layout that works on desktop and mobile  
+- Hero section with background video/image and welcome message  
+- Navigation bar with links (Home, About, hobbies, contacts)  
+- Components split into reusable parts (Nav, About, Products, Services)  
+- Simple login form demonstrating state management and event handling  
+- Styled with Tailwind CSS utility classes  
+
+
+## Technologies Used
+
+- React (functional components, hooks)  
+- Tailwind CSS (utility-first CSS framework)  
+- Vite (fast React development build tool)  
+- vercel for deployment
+
+
+
+### Prerequisites
+
+- Node.js (v14 or above)  
+- npm (Node package manager)
+
+### Installation
+
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
