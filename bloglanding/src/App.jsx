@@ -9,11 +9,12 @@ import Footer from './components/Footer.jsx'
 import  About from './components/about.jsx'
 import Contact from './components/contact.jsx'
 import Nav from './components/Nav.jsx'
+import Login from './components/Login.jsx'
 function App() {
   
    return (
     <div className="  bg-gray-50 font-sans text-gray-800 container mx-auto px-4 sm:px-6 lg:px-8">
-    
+    <Login/>
          <Nav/>
               <Intro/>
 
