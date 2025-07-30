@@ -3,6 +3,7 @@ export default function App(){
     return(
 <section
   className="w-full overflow-hidden relative h-[60vh] md:h-[70vh] bg-cover bg-center transition-transform duration-300 transform hover:scale-105"
+  style={{ backgroundImage: "url('/images/hiking.jpg')" }}
 >
   <video
     autoPlay
