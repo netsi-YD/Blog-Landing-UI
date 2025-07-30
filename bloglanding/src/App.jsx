@@ -13,9 +13,9 @@ import Login from './components/Login.jsx'
 function App() {
   
    return (
-    <div className="  bg-gray-50 font-sans text-gray-800 container mx-auto px-4 sm:px-6 lg:px-8">
-    <Login/>
-         <Nav/>
+    <div className=" space-y-4 bg-gray-50 font-sans text-gray-800 container mt-1 mx-auto px-4 sm:px-6 lg:px-8">
+             <Nav/>
+<Login/>
               <Intro/>
 
  <About/>
