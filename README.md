@@ -35,4 +35,4 @@ https://blog-landing-ui-2.vercel.app/
 
 1. Clone the repo:  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+   git clone https://github.com/netsi-YD/Blog-Landing-UI.git
